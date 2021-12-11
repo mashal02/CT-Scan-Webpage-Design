@@ -1,0 +1,284 @@
+body
+{ margin: 0%;
+    padding: 0%;
+    background-image: url("maxresdefault.jpg");
+    background-size: cover;
+    margin-top: 150px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.main
+{  
+    margin-top: 50px;
+
+}
+#menu
+{ display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  font-size:20px;
+  overflow: hidden;
+  background-color: goldenrod;
+  position: fixed; 
+  top: 0; 
+  width: 100%;
+  margin-left: 0;
+}
+.top{ width:17%;
+    border:solid rgb(84, 52, 136);
+    border-style: inset;
+    border-collapse: collapse;
+    text-align: center;
+
+}
+#menu :hover{
+    background-color: rgb(185, 10, 10);
+    color: floralwhite;
+    
+}
+#me{ 
+  
+    font-family: cursive;
+    font-size: 15px;
+    border-radius: 10px;
+    width:80%; height: 20%;
+    margin-left: auto;
+    margin-right: auto;
+color: rgb(236, 206, 144);
+
+
+}
+#me2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+#x{ margin-left: 20px;
+    font-size: 20px;
+
+
+
+}
+h4{ margin-left: -20px;
+     padding-left: 5px;
+    padding-top: 10px;
+    font-size: 35px;
+    margin-bottom: 6px;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+#intro{
+
+    width:80%;
+margin-left: auto;
+margin-right: auto;
+    border:1px groove rgb(185, 10, 10);
+    border-radius: 10px;
+    padding:20px;
+    background-color: rgb(197, 207, 240);
+
+}
+#med_pic{
+    
+    display: inline;
+    float:right
+   
+}
+.medpic{ margin-top: 80px;
+    
+    border: 1px solid rgb(4, 15, 80);
+    border-radius: 10px;
+}
+h2{
+    color: rgb(185, 10, 10);
+}
+h2:hover{
+    text-shadow: 0 0 3px #FF0000;
+}
+.para{
+    text-align: justify;
+    text-indent: 2cm;
+}
+#img{ margin-top: 18px;
+   border: solid 3px rgb(4, 15, 80);
+    border-radius: 25px;
+    width: 135px;
+    height: 140px;
+    margin-left: -15px;
+    
+}
+h1{ margin-bottom: -30px;
+    text-align: center;
+    padding-top: 50px;
+height: 100px;
+font-size: 40px;
+            color: goldenrod;
+            text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+
+table,th,td{
+    border: groove maroon 2px;
+    
+ border-collapse: collapse;
+ padding: 5px;
+ text-align: center;
+}
+table{ margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+
+}
+caption{
+    text-align: center;
+    caption-side: bottom;
+    font-size: 12px;
+    color:rgb(185, 10, 10);
+}
+#worried{ 
+    margin-left: 20px;
+    width:30%;
+    height: 25%;
+    display: inline;
+    float: right;
+border: 1px inset maroon;
+border-radius: 10px;
+
+}
+.figcaption{
+
+    width: 60%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+        font-size: 12px;
+        color:rgb(185, 10, 10);
+
+}
+figcaption{ width: 60%;
+
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+    caption-side: bottom;
+    font-size: 12px;
+    color:rgb(185, 10, 10);
+}
+#p2{ display: inline;}
+#box{ display: inline;
+    float:right;
+    width: 30%;
+    margin-left: 20px;
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-left: 10px;
+    border: 3px groove rgb(185, 10, 10);
+    border-radius: 10px;
+    background-color:  rgb(203, 209, 230);
+    color: maroon;
+    
+}
+#box :hover{
+    color: darkblue;
+  
+    
+}
+.cardiac{
+    display: inline;
+}
+.cardiac :hover{ 
+            text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+        }
+        h3:hover{
+            text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+        }
+embed{ 
+  
+  margin-left:29.5%;
+    width: 500px;
+    height: 320px;
+}
+.scanner{
+    width: 60%;
+    display: inline-block;
+    margin-left: 20%;
+    margin-right: 20%;
+    border: inset rgb(185, 10, 10); 
+    border-radius: 10px;
+    
+}
+form{padding-left: 20px;
+    font-size: 20px;
+    border:1px double rgb(185, 10, 10);
+    border-radius: 20px;
+    background-image: url("65585e762f6781d.jpg");
+    background-color: rgb(94, 118, 143) ;
+
+    color: cornsilk;
+    font-family: cursive;
+}
+li{
+    text-indent: 2px;
+}
+input{ margin-bottom: 15px;
+    width: 95%;
+    background-color: rgb(216, 204, 216);
+    opacity: 0.9;
+  
+  
+}
+#contact{ 
+    
+    padding-left: 10px;
+    font-size: 35px ;
+    font-weight: 700;
+        color:cornsilk;
+    }
+#submit{
+    margin-top: 10px;
+background-color: plum;
+width: 100px;
+padding: 5px;
+border: 1px solid floralwhite;
+border-radius: 3px;
+margin-bottom: 10px;
+}
+#submit:hover{
+    background-color: springgreen;
+}
+input[type=text]{
+    border: none;
+ border-bottom: maroon;
+    padding: 10px;
+    font-family: monospace;
+    
+}
+select{ border: mediumvioletred dotted;
+    border-radius: 4px;
+    padding: 4px;
+    border-color:maroon;
+}
+#comments{margin-top: 15px;
+     width: 95%;
+    height: 150px;
+    padding:10px;
+
+    background-color: rgb(216, 204, 216);
+    opacity: 0.9;
+}
+#border{width: 100%;
+   
+   height: 50px;
+   font-size: 30px;
+    text-align: center;
+    color: mintcream;
+    bottom: 0; left: 0;
+    background-color: maroon;
+    opacity: 0.7;
+   
+}
+::placeholder{
+    color: navy;
+}
+#fname{
+opacity: 0.8;
+}
+#email{
+opacity: 0.8;
+}
